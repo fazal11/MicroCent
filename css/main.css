@@ -407,6 +407,45 @@ body {
       font-size: 35px !important;
       text-align: center; } }
 
+.typo__slider_content .typo__head {
+  font-size: 3.8vw !important;
+  font-family: "Bebas Neue", cursive !important;
+  line-height: 1.4 !important; }
+  @media (max-width: 767px) {
+    .typo__slider_content .typo__head {
+      font-size: 35px !important;
+      line-height: 1.5;
+      margin-bottom: 7px; } }
+  @media (max-width: 635px) {
+    .typo__slider_content .typo__head {
+      font-size: 30px !important; } }
+  @media (max-width: 550px) {
+    .typo__slider_content .typo__head {
+      font-size: 30px !important;
+      text-align: center; } }
+  @media (max-width: 460px) {
+    .typo__slider_content .typo__head {
+      font-size: 25px !important;
+      text-align: center; } }
+  @media (max-width: 397px) {
+    .typo__slider_content .typo__head {
+      font-size: 20px !important;
+      text-align: center; } }
+
+@media (max-width: 991px) {
+  .typo__slider_content .typo__description {
+    font-size: 2.5vw; } }
+
+@media (max-width: 515px) {
+  .typo__slider_content .typo__description {
+    font-size: 3vw; } }
+
+@media (max-width: 515px) {
+  .typo__slider_content .typo__description {
+    font-size: 3.5vw;
+    margin-top: 0 !important;
+    margin-bottom: 5px !important; } }
+
 /* Remove border from toggler */
 .navbar-toggler {
   border: 0 !important; }
@@ -575,7 +614,7 @@ header {
     width: 100% !important; }
   .mc__phone__01 {
     width: 68vw;
-    top: -2vw;
+    top: -22vw;
     right: 8.3vw; }
   .mc__phone__average {
     width: 38vw;
@@ -1320,8 +1359,7 @@ main {
 #timer .days h3, #timer .days span, #timer .hours h3, #timer .hours span, #timer .minutes h3, #timer .minutes span {
   color: white;
   font-size: 1.4vw;
-  text-shadow: 1px 2px 4px #FF0000,
- -1px -1px 2px #0033ffca; }
+  text-shadow: 1px 2px 4px #FF0000, -1px -1px 2px #0033ffca; }
 
 #timer .days h3, #timer .hours h3, #timer .minutes h3 {
   margin-top: 0 !important;
@@ -1336,8 +1374,7 @@ main {
 
 #timer .dots {
   color: white;
-  text-shadow: 1px 2px 4px #FF0000,
- -1px -2px 4px #0033FF;
+  text-shadow: 1px 2px 4px #FF0000, -1px -2px 4px #0033FF;
   margin: 0px 20px;
   font-size: 40px;
   font-family: initial; }
@@ -2067,23 +2104,32 @@ body {
         top: 16vw; } }
     @media (max-width: 991px) {
       .slider___text .fake__btn {
-        top: 16vw; } }
-    @media (max-width: 991px) {
+        top: 18vw; } }
+    @media (max-width: 700px) {
       .slider___text .fake__btn {
         top: 20vw; } }
     @media (max-width: 650px) {
       .slider___text .fake__btn {
         top: 23vw !important; } }
+    @media (max-width: 650px) {
+      .slider___text .fake__btn {
+        top: 20vw !important; } }
     @media (max-width: 550px) {
       .slider___text .fake__btn {
-        top: 30vw !important;
+        top: 23vw !important;
         left: 0vw !important; } }
+    @media (max-width: 480px) {
+      .slider___text .fake__btn {
+        top: 26vw !important; } }
     @media (max-width: 400px) {
       .slider___text .fake__btn {
         top: 32vw !important; } }
+    @media (max-width: 397px) {
+      .slider___text .fake__btn {
+        top: 25vw !important; } }
     @media (max-width: 350px) {
       .slider___text .fake__btn {
-        top: 34vw !important; } }
+        top: 28vw !important; } }
   .slider___text .f__btn {
     width: 100%;
     height: 1.4vw;
@@ -2140,6 +2186,10 @@ body {
   @media (max-width: 767px) {
     .tick_img {
       width: 6vw; } }
+
+@media (max-width: 1160px) {
+  .tick_layout h3 {
+    font-size: 14px; } }
 
 .footer__logo img {
   width: 10vw; }
@@ -3102,11 +3152,6 @@ body {
       transition: 0.5s all; }
       .contact_form .tab-content form button:hover {
         color: black; }
-        .contact_form .tab-content formbutton:disabled,
-      button[disabled]{
-      border: 1px solid #999999;
-      background-color: #cccccc !important;
-      color: #666666 !important;}
   @media (max-width: 767px) {
     .contact_form {
       padding: 4rem 0rem; }

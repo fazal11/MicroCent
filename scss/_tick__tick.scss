@@ -25,9 +25,8 @@
     width: 6vw;
   }
 }
-// .about__tick > h1 {
-//   font-size: 3.8vw;
-//   @include media(600px){
-//     font-size: 6vw;
-//   }
-// }
+@include media(1160px){
+  .tick_layout h3 {
+    font-size: 14px;
+  }
+}

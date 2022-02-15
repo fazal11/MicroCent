@@ -76,25 +76,37 @@
 		@include media(1200px){
 			top: 16vw;
 		}
+		// @include media(991px){
+		// 	top: 16vw;
+		// }
 		@include media(991px){
-			top: 16vw;
+			top: 18vw;
 		}
-		@include media(991px){
+		@include media(700px){
 			top: 20vw;
 		}
 		@include media(650px){
 			top: 23vw !important;
 		}
+		@include media(650px){
+			top: 20vw !important;
+		}
 		@include media(550px){
-			top: 30vw !important;
+			top: 23vw !important;
 		  left: 0vw !important;
 
+		}
+		@include media(480px){
+			top: 26vw !important;
 		}
 		@include media(400px){
 			top: 32vw !important;
 		}
+		@include media(397px){
+			top: 25vw !important;
+		}
 		@include media(350px){
-			top: 34vw !important;
+			top: 28vw !important;
 		}
 	}
 	.f__btn {
