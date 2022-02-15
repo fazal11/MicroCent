@@ -1320,7 +1320,8 @@ main {
 #timer .days h3, #timer .days span, #timer .hours h3, #timer .hours span, #timer .minutes h3, #timer .minutes span {
   color: white;
   font-size: 1.4vw;
-  text-shadow: 1px 2px 4px #FF0000, -1px -1px 2px #0033ffca; }
+  text-shadow: 1px 2px 4px #FF0000,
+ -1px -1px 2px #0033ffca; }
 
 #timer .days h3, #timer .hours h3, #timer .minutes h3 {
   margin-top: 0 !important;
@@ -1335,7 +1336,8 @@ main {
 
 #timer .dots {
   color: white;
-  text-shadow: 1px 2px 4px #FF0000, -1px -2px 4px #0033FF;
+  text-shadow: 1px 2px 4px #FF0000,
+ -1px -2px 4px #0033FF;
   margin: 0px 20px;
   font-size: 40px;
   font-family: initial; }
@@ -3100,6 +3102,11 @@ body {
       transition: 0.5s all; }
       .contact_form .tab-content form button:hover {
         color: black; }
+        .contact_form .tab-content formbutton:disabled,
+      button[disabled]{
+      border: 1px solid #999999;
+      background-color: #cccccc !important;
+      color: #666666 !important;}
   @media (max-width: 767px) {
     .contact_form {
       padding: 4rem 0rem; }
