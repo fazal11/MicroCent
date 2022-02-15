@@ -1,0 +1,45 @@
+
+.box {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  color: white;
+  text-align: center;
+  line-height: 100vh;
+  font-size: 120px;
+  font-family: "Roboto", sans-serif;
+  background-color: red;
+}
+
+
+
+.box1 {
+  background-color: #84c186;
+}
+
+.box2 {
+  background-color: #8b6c4c;
+}
+
+.box3 {
+  background-color: #39a3ee;
+}
+
+.box4 {
+  background-color: #ef9144;
+}
+
+.box5 {
+  background-color: #b84b4b;
+}
+
+#targets {
+  position: absolute;
+  width: 500%;
+  display: flex;
+}
+
+#stage {
+  width: 100%;
+  height: 100vh;
+}

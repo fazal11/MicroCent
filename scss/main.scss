@@ -1,0 +1,137 @@
+// LOADER 
+@import 'loader';
+
+// UTILITIES
+@import 'utilities';
+// TYPO 
+@import 'typography';
+// ================ HEADER ==============
+@import 'header';
+// ================ BANNER ====================
+@import 'banner';
+// ================ BANNER END ================
+// ================ SHORT ================
+@import 'short__link';
+// ================ PHONE MOOD ================
+
+@import 'phone__moody';
+@import 'emcy__slides';
+
+// PHONE STYLE 
+.intro-summary-text{
+  font-size: 3vw;
+  color: white;
+  font-weight: 400;
+  line-height: 1.2
+  }
+  
+
+// .first {display: none;}
+// BATTLE PASS 
+@import 'battle';
+// TRACK SLIDE IMPORT 
+@import 'track_slides';
+
+// THREE SLIDER 
+@import 'three__slide';
+// TCK TICK 
+@import 'tick__tick';
+
+// FOOTER 
+@import 'footer';
+
+@import 'phone_scroll__card';
+// ============= HOME PAGE END =============== 
+// ============= FAQ PAGE     =============== 
+@import 'faq';
+// ============= FAQ PAGE END =============== 
+
+// MEDIA QUEERS
+@import 'media_base';
+
+
+// ============= DUMMY =============== 
+@import "dummy_pages";
+// ============= CONTACT =============== 
+@import "contact";
+// ============= terms =============== 
+@import "terms";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.window {
+  width: 350px;
+  margin: auto;
+  // border: 7px solid #1d505d;
+  background-image: url(../img/Finverse__body.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  padding: 20px;
+  cursor: n-resize;
+  img {
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    height: 600px;
+    transition: 1s all ease;
+    border-radius: 25px;
+    &:hover {
+      object-position: bottom;
+      cursor: pointer;
+    }
+  }
+  @include media(767px){
+   width: 250px;
+   padding: 11px;
+
+   img {
+     height: 450px;
+   }
+  }
+}
+
+
+// .finverse__phone {
+//   width: 350px;
+//   padding: 10px;
+//   background-color: red;
+//   background-image: url(../img/Finverse__body.png);
+//   background-size: 100% 100%;
+//   background-repeat: no-repeat;
+//   position: relative;
+//   z-index: 99;
+//   height: 400px;
+
+// }
+// .window {
+//   border-radius: 20px;
+//   width: 100%;
+//   margin: auto;
+//   overflow-y: scroll;
+//   height: 400px;
+//   position: absolute;
+//   z-index: 1 !important;
+//   &:hover {
+//   overflow-y: scroll;
+//   scrollbar-width: 0px !important;
+//   scrollbar-width: 0px !important;
+//   -webkit-scrollbar-width: 0px !important;
+//   scrollbar-color: rgba(255, 0, 0, 0)  !important;
+//   -webkit-scrollbar-color: rgba(255, 255, 0, 0) rgba(255, 0, 0, 0)  !important;
+//   }
+// }

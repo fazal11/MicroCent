@@ -1,0 +1,21 @@
+.dummy_pages {
+  height: 100%;
+  background-color: $primary;
+  display: flex;
+  margin: auto;
+  h1 {
+    font-size: 5vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    color: $theme__main;
+    font-weight: 600;
+    text-shadow: 1px 1px 5px white;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    .spinner-border {
+      color: white !important;
+      text-shadow: 1px 1px 5px $theme__main;
+    }
+  }
+}

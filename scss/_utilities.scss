@@ -1,0 +1,382 @@
+// FONT GOOGLE 
+// LATO 
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+// Bebas Neue 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+// Ubuntu 
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+// Work Sans 
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600&display=swap');
+// Roboto 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+//Gideon Roman
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+// DOWNLOAD FONT 
+@import 'local__font';
+// animation 
+@import 'animation';
+// ================ BASE ==================
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+* {
+    box-sizing: border-box;
+    scrollbar-width: thin !important;
+}
+ul,ol {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    outline: none;
+}
+p,h1,h2,h3,h4,h5,h6 {
+    margin-bottom: 0;
+}
+// ================ BASE END ==============
+
+// ================ VARIABLE CUSTOM ==============
+$primary:      #28293d;
+$theme__main:  #202039;
+$light__blue:  #409C98;
+$blue:         #2738B2;
+$red:          #FF0000;
+$hype:         #0C9DF7;
+$advisor:      #1AE8CE;
+$light__sky:   #1ADCD4;
+$purple:       #AF4A99;
+$footer:       #2B2C44;
+$light :       #707070;
+
+
+
+// ================ VARIABLE CUSTOM END ==========
+
+// ================ IMPORT BOOTSTRAP SCSS ==============
+// @import '../node_modules/bootstrap/scss/bootstrap.scss';
+// ================ IMPORT BOOTSTRAP SCSS END ==========
+// ================ VARIABLE MAIN ==============
+// FONT SIZES
+$font__1 : 55px;
+$font__2 : 90px;
+$font__3 : 3.8vw;
+$font__4 : 3vw;
+$font__5 : 36px;
+
+$font_s_1 : 1.4vw;
+$font_timer_h : 40px;
+$default__font_size : 1vw;
+
+// FONT WIGHTS
+$font_w__100 : 100;
+$font_w__300 : 300;
+$font_w__400 : 400;
+$font_w__700 : 700;
+$font_w__600 : 600;
+$font_w__900 : 900;
+
+// FAMILY 
+$ff__Bebas   : 'Bebas Neue', cursive;
+$font__Bebas  : BebasNeue;
+$ff__ubuntu  : 'Ubuntu', sans-serif;
+$ff__sans    : 'Work Sans', sans-serif;
+$ff__segoe_ui: 'segoe_ui';
+$ff__lato:     'Lato', sans-serif;
+$ff__roboto:   'Roboto', sans-serif;
+
+// === classes create ===
+// FONT
+.font__1            { font-size: $font__1; }
+.font__2            { font-size: $font__2; }
+.font__3            { font-size: $font__3; }
+.font__4            { font-size: $font__4; }
+.font__5            { font-size: $font__5; }
+.font_s_1           { font-size: $font_s_1; }
+
+.default__font_size { font-size: $default__font_size; }
+
+// WIGHTS
+.font_w__100 { font-weight: $font_w__100; }
+.font_w__300 { font-weight: $font_w__300; }
+.font_w__400 { font-weight: $font_w__400; }
+.font_w__600 { font-weight: $font_w__600; }
+.font_w__700 { font-weight: $font_w__700; }
+.font_w__900 { font-weight: $font_w__900; }
+
+// family 
+.ff__Bebas   { font-family: $ff__Bebas;   }
+.ff__ubuntu  { font-family: $ff__ubuntu;  }
+.ff__sans    { font-family: $ff__sans;    }
+.ff__lato    { font-family: $ff__lato;    }
+.ff__roboto  { font-family:  $ff__roboto}
+.local_bebas { font-family: $font__Bebas; }
+.ff__Roman   { font-family: 'Gideon Roman', cursive !important;}
+
+
+
+// .local_font 
+.ff__segoe_ui   {
+    font-family: segoe_ui;
+}
+
+
+
+// font-family: "Segoe UI",Arial,sans-serif;
+// font-weight: 600;
+// font-size: 47px;
+
+// col-xxl-5 col-xl-5 col-lg-6
+
+
+.phone__content__01,
+.phone__content__02,
+.phone__content__03,
+.phone__content__04 { 
+    h3 {
+        font-family: $ff__Bebas;
+    }
+}
+
+// COLORS CLASSES
+.bg__primary        { background: $primary; }
+.text__blue         { color: $blue; }
+.bg__blue           { background: $blue; }
+.text__roast        { color: $red; }
+.text__hype         { color: $hype; }
+.text__advisor      { color: $advisor; }
+.light__sky         { color: $light__sky; }
+.theme__main        { background: $theme__main;}
+.light__blue        { background: $light__blue;}
+.light__blue_text   { color: $light__blue;}
+.bg__purple         { background: $purple;}
+.bg__footer         { background: $footer;}
+.text__light        {color: $light;}
+
+// line hight 
+
+.line__86           { line-height: 86px;}
+.line__defaults     { line-height: 1.3;}
+.line___default     { line-height: 1;}
+
+// effect 
+.html{
+    scroll-behavior: smooth;
+    transition: 1.2s all scroll-behavior !important;
+}
+// CLASSES
+.mobo__view          { width: 100%; }
+.battle__shadow      {text-shadow: 0px 0px 8px #2ef0d6;color: #1AE8CE;}
+.battle__heading     {color: #1AE8CE;}
+
+
+.pass__shadow_text   {text-shadow: 0px 0px 15px #41bbab;}
+.light__shadow       {text-shadow: 0px 0px 10px $light__sky;}
+.hype__shadow        {text-shadow: 0px 0px 15px $hype;}
+.red__shadow         {text-shadow: 0px 0px 15px $red;}
+
+// SCROLL 
+* {
+    
+    ::-webkit-scrollbar {
+        background: $theme__main;
+        width: 7px !important;
+    }
+      /* Style the scrollbar handle */
+    ::-webkit-scrollbar-thumb {
+    background: $primary;
+    }
+    ::-webkit-scrollbar-track-piece {
+        width: 10px;
+    }
+    ::-webkit-scrollbar-corner {
+        background: $theme__main;
+    }
+    ::-webkit-scrollbar:horizontal {
+        display: none;
+    }
+      scrollbar-width: thin !important;
+      -webkit-scrollbar-width: thin !important;
+      scrollbar-color: $primary $theme__main !important;
+      -webkit-scrollbar-color: $primary $theme__main !important;
+}
+// MIXINS 
+@mixin media($value) {
+    @media (max-width: $value) {
+        @content;
+    }
+}
+@mixin layout_mean {
+    width: calc(100% - 15%); //85% DESKTOP
+    margin: auto;
+    @include media(991px){
+     width: calc(100% - 10%); //90% TAB
+    }
+    @include media(500px){
+    width: calc(100% - 13%); //93% MOBO
+    }
+}
+
+@mixin background_img
+    (
+    $name_img:null,
+    $back_size:100%,
+    $position-y:null,
+    $position-x:null,
+    $position:null,
+    ) 
+{
+    background-image: $name_img;
+    background-size: $back_size;
+    background-position-y: $position-y;
+    background-position-x: $position-x;
+    background-position: $position;
+    background-repeat: no-repeat;
+    @content;
+}
+@mixin reverse__media {
+    display: flex;
+    flex-direction: column-reverse;
+}
+// classes mixin
+.layout_mean { @include layout_mean();}
+.tracks__layout {
+    @include media(991px){
+        @include reverse__media();
+        img {
+            width: 350px;
+        }
+    }
+    h3 {
+        margin-bottom: 20px;
+    }
+}
+// === classes create end ===
+// FOCUS REMOVE 
+textarea:focus, 
+textarea.form-control:focus, 
+input.form-control:focus, 
+input[type=text]:focus, 
+input[type=password]:focus, 
+input[type=email]:focus, 
+input[type=number]:focus, 
+[type=text].form-control:focus, 
+[type=password].form-control:focus, 
+[type=email].form-control:focus, 
+[type=tel].form-control:focus, 
+[contenteditable].form-control:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+.form-control:focus {
+    border-color: #2B2C44 !important;
+}
+// fixes 
+.slick-active,
+.slick-slide {
+    &:focus-visible {
+        outline: none !important;
+        border: none !important;
+    }
+}
+// THEME 
+body  { 
+    background: $theme__main;
+    @include media(766px){
+        overflow:  hidden;
+    }
+}
+
+
+// BACK TO TOP 
+.back__top {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    background-color: $primary;
+    border-radius: 50%;
+
+a {
+    // font-size: 12px;
+    // text-transform: uppercase;
+    // letter-spacing: 2.5px;
+    // font-weight: 500;
+    // color: white;
+    border: none;
+    // box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    // transition: all 0.3s ease 0s;
+    // cursor: pointer;
+    // outline: none;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    transition: 0.3s all;
+    background-color: $primary;
+
+    img {
+        width: 70px;
+        height: 70px;
+    }
+   }
+   
+   button:hover {
+    background-color: $theme__main;
+    box-shadow: 0px 0px 20px rgba(4, 79, 219, 0.466);
+    color: #fff;
+    transform: translateY(-7px);
+    transition: 0.3s all;
+   }
+   
+   button:active {
+    transform: translateY(-1px);
+   }
+}
+
+
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: $primary;
+    width: 100px;
+    height: 100px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    z-index: 999;
+  }
+  #return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  #return-to-top:hover {
+    background: #AF4A99;
+    box-shadow: 0px 0px 17px 5px #0537706e;
+  }
+  #return-to-top:hover i {
+    color: #FAD25B;
+    top: 5px;
+
+  }
+
+

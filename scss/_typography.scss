@@ -1,0 +1,14 @@
+// HEADING SAME TITTLE TYPO 
+.typo__head__01 {
+  font-size: 3.8vw !important;
+  font-family: $ff__Bebas !important;
+  line-height: 1.4 !important;
+  @include media(767px){
+    font-size: 35px !important;
+    line-height: 1.5;
+  }
+  @include media(550px){
+    font-size: 35px !important;
+    text-align: center;
+  }
+}

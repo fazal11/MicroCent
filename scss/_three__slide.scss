@@ -1,0 +1,139 @@
+// THREEE SLIDER 
+
+.three_slides {
+	position: relative;
+	height: auto;
+	width: 70%;
+	margin: auto;
+
+	.three__slider__img {
+		width: 50vw;
+	}
+	.three__slider__text {
+		// width: 50vw;
+		width: 75vw;
+		
+	}
+	@include media(550px){
+		width: 80%;
+	}
+}
+.slider {
+  // margin: 0px 12vw;
+	.slick-slide {
+		color: white;
+		padding: 40px 0;
+		font-size: 30px;
+		font-family: "Arial", "Helvetica", sans-serif;
+		text-align: center;
+		display: block;
+	
+	} 
+	
+	.slick-prev::before,
+	.slick-next::before {
+		color: black;
+	}
+	
+}
+.slider .slide__part {
+	// height: 700px;
+	height: auto;
+}
+.slider__fix_tittle{
+	position: absolute;
+	top: 3vw;
+	left: 44%;
+	h1 {
+		font-size: 3vw;
+		width: 40vw;
+	}
+}
+.slider___text {
+	margin-top: 0vw;
+	width: 100%;
+	position: relative;
+	p{
+		padding-left: 20px;
+		font-family: $Calibri__normal;
+		font-size: 2.1vw;
+		line-height: 1;
+		@include media(991px){
+			padding-left: 10px;
+		}
+	}
+
+	.fake__btn {
+		position: absolute;
+		top: 14vw;
+		left: 0vw;
+		width: 0.6vw;
+		height: 7vw;
+		background-color: transparent;
+		@include media(1550px){
+			top: 14vw;
+		}
+		@include media(1200px){
+			top: 16vw;
+		}
+		@include media(991px){
+			top: 16vw;
+		}
+		@include media(991px){
+			top: 20vw;
+		}
+		@include media(650px){
+			top: 23vw !important;
+		}
+		@include media(550px){
+			top: 30vw !important;
+		  left: 0vw !important;
+
+		}
+		@include media(400px){
+			top: 32vw !important;
+		}
+		@include media(350px){
+			top: 34vw !important;
+		}
+	}
+	.f__btn {
+		width: 100%;
+		height: 1.4vw;
+		background: #A1A1A1;
+		border-radius: 12px;
+		margin-bottom: 10px;
+		transition: 0.6s all;
+
+	}
+	.f_active {
+		height: 2.7vw;
+		background-color: #14a5f1;
+		background-image: linear-gradient(180deg, #14a5f1 24%, #19e5cf 72%);
+		transition: 0.6s all;
+	}
+
+}
+.last_f_btn {
+	height: 40px !important;
+}
+.three__slider {
+	// padding: 0vw 5vw;
+	// padding: 2vw 5vw;
+	// width: 100% !important;
+	width: 100% !important;
+	margin: auto;
+}
+
+@include media(767px){
+	.battle__layout {
+		width: 50vw;
+	}
+}
+
+
+.slider___text__tittle {
+margin: 30px 0px;
+color: #1AE8CE;
+text-align: left !important;
+}

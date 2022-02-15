@@ -1,0 +1,332 @@
+// media classes 
+@include media(1330px){
+  .intro-summary-text {
+      transition: 0.5s all;
+  }
+//   .chat-section-intro {
+//     //   margin-left: 125%;
+//   }
+  .banner {
+      transition: 0.6s all;
+  }
+}
+@include media(1200px){
+//   .intro-summary-text{
+//       font-size: 40px;
+//   }
+  .phone__content {
+      h3 {
+          font-size: 55px;
+          transition: 0.6s all;
+      }
+  }
+}
+@include media(1100px){
+  .phone__content h3 {
+      font-size: 45px;
+  }
+}
+@include media(1030px){
+  .phone__layout {
+      width: auto;
+  }
+  .phone__img {
+      width: 345px;
+  }
+  .phone__card__01 {
+      width: 285px;
+      top: -53px;
+      right: 1%;
+  }
+  .phone__card__02 {
+      width: 222px;
+      top: -31%;
+  }
+  .phone__card__03 {
+      width: 145px;
+      top: -39%;
+  }
+}
+@include media(991px){
+  .font__2 {
+      font-size: 45px;
+  }
+  .line__86 {
+      line-height: 50px;
+  }
+  .banner .container-fluid {
+      margin-top: 10%;
+  }
+  .chat-section-intro {
+      margin-left: 0px;
+  }
+  .intro-summary-text {
+      font-size: 30px;
+  }
+  .banner .container-fluid {
+      transition: 0.6s all;
+  }
+  .track-item.first {
+      width: 80%;
+  }
+  .features-intro-text {
+      font-size: 40px;
+  }
+  .pass_text {
+      p {
+          line-height: 1;
+          font-size: 36px;
+      }
+  }
+  .slider___text {
+      p {
+        font-size: 2vw;
+        line-height: 1;
+      }
+  }
+}
+@include media(800px){
+  .phone__img {
+      width: 260px;
+  }
+  .phone__card__01 {
+      width: 220px;
+      right: 1%;
+      top: -18%;
+  }
+  .phone__card__02 {
+      width: 175px;
+      right: 1%;
+      top: -35%;
+  }
+  .phone__card__03 {
+      width: 120px;
+      right: 0%;
+      top: -49%;
+  }
+}
+@include media(767px){
+  .font__3 {
+      font-size: 50px;
+  }
+  .pass_banner p {
+      font-size: 30px;
+      line-height: 1;
+  }
+  .track .slick-prev, .track .slick-next {
+    width: 80px;
+  }
+  .track .slick-prev::before, .track .slick-next::before {
+    font-size: 180px;
+  }
+  .track__tittle {
+      margin-top: 30vw;
+  }
+  .slider___text {
+    p {
+      font-size: 2.9vw;
+      line-height: 1;
+    }
+  }
+}
+
+@include media(550px){
+  .tracks__layout img {
+      width: 210px;
+  }
+  .font__4 {
+      font-size: 28px;
+  }
+  .font__5 {
+      font-size: 21px;
+  }
+  .font_s_1 {
+    font-size: 3.6vw;
+  }
+  .banner .container-fluid {
+      margin-top: 5%;
+      transition: 0.6s all;
+  }
+  .mobo__view {
+      width: 55%;
+      font-weight: lighter;
+  }
+  .font__2 {
+      font-size: 30px;
+  }
+  .line__86 {
+      line-height: 1.1;
+  }
+  .intro-summary-text {
+      font-size: 20px;
+      transition: 0.6s all;
+  }
+  .features-intro-text {
+      font-size: 30px;
+  }
+  .feature-intro-summary {
+      padding: 0vw 4vw;
+  }
+  #timer .days span, #timer .hours span, #timer .minutes span {
+      font-size: 25px;
+  }
+  #timer .days h3, #timer .days span, #timer .hours h3, #timer .hours span, #timer .minutes h3, #timer .minutes span {
+      font-size: 17px;
+  }
+  #timer .dots {
+      margin: -10px 2px;
+      font-size: 28px;
+  }
+  .pass_banner p {
+      font-size: 20px;
+  }
+  .pass_text {
+      h2 {
+          font-size: 35px;
+      }
+  }
+  .first__img {
+      margin: 0 auto !important;
+      width: auto !important;
+  }
+  .moody_first_text {
+      margin-top: 20px;
+  }
+  .chat-mode-heading {
+      font-size: 40px;
+  }
+  .tracks__layout {
+      h3 {
+          font-size: 35px;
+          line-height: 1;
+      }
+      p {
+          font-size: 18px;
+          line-height: 1;
+      }
+  }
+  .tick_img {
+      width: 30px;
+  }
+  .tick_layout {
+      h3 {
+          font-size: 16px;
+      }
+  }
+  .about__tick {
+      h2 {
+          font-size: 28px;
+      }
+  }
+  .pass_text h2 {
+      font-size: 28px;
+  }
+  .chat-mode {
+      margin: 30px auto;
+  }
+  .chat-bubbles {
+      margin-top: 10%;
+  }
+  .default__font_size {
+      font-size: 14px;
+  }
+  .navbar-brand > img {
+      width: 45px;
+  }
+  header::after {
+      height: 4px;
+  }
+  .feature-intro {
+      padding-top: 0 !important;
+  }
+  .chat-bubbles {
+      margin-top: 0 !important;
+  }
+  .phone__content h3 {
+      font-size: 35px;
+      margin: 8px auto !important;
+  }
+  .phone__layout {
+      margin-top: 30%;
+  }
+  .banner {
+        background-size: 230%;
+      background-position-y: -50px;
+      height: 72vh;
+  }
+  .slider___text {
+    width: 100%;
+      margin-top: 10vw;
+      p {
+        font-size: 3.5vw;
+        line-height: 1;
+      }
+  }
+  .fake__btn {
+      width: 1vw !important;
+    top: 1vw !important;
+    left: -2vw !important;
+    .f__btn {
+        height: 2vw;
+      }
+  }
+  .three__slider {
+      padding: 0;
+  }
+  .slider {
+      margin: 0;
+  }
+  .slider__fix_tittle {
+    top: 18vw;
+    left: 48%;
+    h1 {
+        font-size: 4.3vw;
+    }
+  }
+  .three_slides .three__slider__img {
+    width: 50vw;
+  }
+  .slider .slide__part {
+      height: auto;
+  }
+  .battle__layout {
+    width: 62vw;
+  }
+  .fake__btn .f_active {
+    height: 4vw;
+  }
+  .tick_layout {
+      border-radius: 14px;
+      padding: 8px 15px;
+  }
+}
+@include media(410px){
+  .banner {
+    background-size: 290%;
+    height: 80vh;
+      h1 {
+          font-size: 25px;
+      }
+  }
+  footer {
+      padding-bottom: 50px;
+  }
+}
+@include media(380px){
+  html,* {
+      transition: 0.6s all;
+  }
+  .font__2 {
+      font-size: 20px;
+  }
+  .intro-summary-text {
+      font-size: 16px;
+  }
+  .features-intro-text {
+      font-size: 22px;
+  }
+  .tick_layout {
+      margin-bottom: 15px !important;
+  }
+
+}

@@ -1,0 +1,149 @@
+// PASS 
+.pass {
+  margin-top: -5vw;
+  @include background_img($name_img:url(../img/battle__Pass.png),$back_size:100% 100%,$position:center center);
+  height: 26.5vw;
+  display: flex;
+  align-items: center;
+  border-radius: 40px !important;
+  // border: 7px solid rgb(61, 60, 60);
+}
+.passChange {
+  background-image: url(../img/banner_mask.webp);
+}
+.battle__layout {
+  width: 32vw;
+}
+
+// TIMER 
+#timer {
+  .days,.hours,.minutes {
+      h3,span{
+          color: white;
+          font-size: $font_s_1;
+          text-shadow: 1px 2px 4px #FF0000,
+                       -1px -1px 2px #0033ffca;
+      }
+      h3 {
+          margin-top: 0 !important;
+          font-weight: 600;
+          font-size: 20px;
+      }
+      span {
+          font-size: $font_timer_h;
+          color: white;
+          font-weight: normal;
+          font-family: sans-serif;
+
+      }
+  }
+  .dots {
+      color: white;
+      text-shadow: 1px 2px 4px #FF0000,
+                       -1px -2px 4px #0033FF;
+      margin: 0px 20px;
+      font-size: $font_timer_h;  
+      font-family: initial;
+  }
+}
+
+.pass {
+  width: 56%;
+}
+@include media(991px){
+  .pass {
+    width: 80%;
+    height: 37.5vw;
+  }
+  .battle__layout {
+    width: 50vw;
+  }
+}
+@include media(650px){
+  .battle__layout {
+    width: 55vw !important;
+  }
+}
+@include media(550px){
+  .pass{
+    margin-top: 0;
+  }
+}
+@include media(500px){
+.pass {
+  border-radius: 20px !important;
+}
+}
+@include media(420px){
+  .battle__layout {
+    width: 55vw !important;
+  }
+}
+
+
+.pass {
+  position: relative;
+}
+.phone__battle {
+  position: absolute;
+  left: -3%;
+  width: 106%;
+  height: 26.5vw;
+  margin: auto;
+  top: -3%;
+  // background-color: red;
+  // transform: rotate(270deg);
+}
+
+
+// battle__ani
+
+[data-aos="battle__ani"] {
+    transition: 2.9s all;
+    margin-top: 22vh;
+    background-size: 200% 200%;
+    .pass_banner {
+      opacity: 0;
+    }
+    @include media(767px){
+      margin-top: 15vh;
+    }
+
+  &.aos-animate {
+    border-radius: 50px;
+    opacity: 1;
+    transition: 0s all;
+    margin-top: 0;
+    background-size: 100% 100%;  
+        .pass_banner {
+          opacity: 1;
+        } 
+
+  }
+}
+
+@include media(500px){
+  .battle__layout {
+    width: 100% !important;
+    padding: 10px 0px !important;
+  }
+}
+@include media(400px){
+  .pass {
+    width: 90%;
+    height: 42.5vw;
+  }
+  .pass_text h2 {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 26px;
+  }
+  #timer .days h3, #timer .days span, #timer .hours h3, #timer .hours span, #timer .minutes h3, #timer .minutes span {
+    font-size: 14px !important;
+  }
+  .pass_banner p {
+    padding: 0;
+    margin: 0 !important;
+    font-size: 18px;
+  }
+}

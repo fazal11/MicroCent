@@ -1,0 +1,33 @@
+.tick_layout {
+  border-radius: 30px;
+  background: #393653;
+  padding: 1vw 1vw;
+  width: 90%;
+  @include media(991px){
+    margin-bottom: 20px;
+    border-radius: 20px;
+  }
+  @include media(767px){
+    margin: auto auto 10px auto;
+    padding: 15px 25px;
+  }
+  h3 {
+    line-height: 1.3;
+    // font-family: "Segoe UI",Arial,sans-serif;
+    font-family: $ff__segoe_ui;
+    font-weight: 600;
+    font-size: 1.1vw;
+  }
+}
+.tick_img {
+  width: 2vw;
+  @include media(767px){
+    width: 6vw;
+  }
+}
+// .about__tick > h1 {
+//   font-size: 3.8vw;
+//   @include media(600px){
+//     font-size: 6vw;
+//   }
+// }

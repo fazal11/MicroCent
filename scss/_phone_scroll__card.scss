@@ -1,0 +1,210 @@
+.phone__ {
+  height: auto;
+  margin-top: 4vw !important;
+  .phone___mean {
+      transform: rotate(40deg);
+  }
+  &:active {
+      .phone___mean {
+          transform: rotate(0deg);
+      }
+  }
+}
+.phone__layout {
+  width: 28%;
+}
+.phone__content,
+.phone__layout  {
+  margin-top: 12%;
+}
+.phone__img {
+  // width: 500px;
+  width: 30vw;
+  position: relative;
+}
+.phone__card__01 {
+  width: 24vw;
+  position: absolute;
+  top: -4vw;
+  right: 0.5vw;
+}
+.phone__card__02 {
+  @extend .phone__card__01;
+  width: 19vw;
+  right: 0vw;
+  top: -8vw;
+}
+.phone__card__03 {
+  @extend .phone__card__02;
+  width: 13vw;
+  top: -11.4vw;
+  right: 0vw;
+}
+
+
+
+
+
+
+
+.admin__phone{
+  width: 100%;
+  height: 180vh;
+  background: transparent;
+  @include media(600px){
+    height: auto;
+  }
+}
+
+.phone__ {
+  position: sticky;
+  top: 10px;
+}
+[data-aos="phone__body"] {
+transform: rotate(30deg);
+  transition: 0.8s all;
+  opacity: 0;
+  margin-top: 30vh;
+  @include media(1400px){
+    margin-top: 3vh;
+  }
+  @include media(690px){
+    margin-top: 0vh;
+  }
+&.aos-animate {
+      transform: rotate(0deg);
+      transition: 0s all;
+      opacity: 1;
+      margin-top: 0vh;
+}
+}
+
+[data-aos="phone__card_01"] {
+transform: rotate(30deg);
+  transition: 0.8s all;
+  opacity: 0;
+  margin-top: 50vh;
+  @include media(690px){
+    margin-top: 15vh;
+  }
+
+  // transition-property: transform, transition,opacity;
+&.aos-animate {
+      transform: rotate(0deg);
+      transition: 0s all;
+      opacity: 1;
+      margin-top: 0vh;
+}
+}
+[data-aos="phone__card_02"] {
+transform: rotate(30deg);
+  transition: 0.7s all;
+  opacity: 0;
+  transition-property: transform, transition,opacity;
+  margin-top: 80vh;
+  @include media(690px){
+    margin-top: 30vh;
+  }
+&.aos-animate {
+      transform: rotate(0deg);
+      transition: 0s all;
+      opacity: 1;
+      margin-top: 0;
+}
+}
+[data-aos="phone__card_03"] {
+transform: rotate(30deg);
+  transition: 0.6s all;
+  opacity: 0;
+  transition-property: transform, transition,opacity;
+  margin-top: 110vh;
+  @include media(690px){
+    margin-top: 50vh;
+  }
+  
+&.aos-animate {
+      transform: rotate(0deg);
+      transition: 0s all;
+      opacity: 1;
+      margin-top: 0px;
+
+}
+}
+
+
+[data-aos="phone__content__02"] {
+  transition: 0.6s all;
+  opacity: 0;
+  transition-property: transform, transition,opacity;
+  margin-top: 35vh;
+  @include media(690px) {
+    margin-top: 0vh;
+   }
+&.aos-animate {
+      transition: 0s all;
+      opacity: 1;
+      margin-top: 0px;
+
+}
+}
+[data-aos="phone__content__03"] {
+  transition: 0.6s all;
+  opacity: 0;
+  transition-property: transform, transition,opacity;
+  margin-top: 15vh;
+  @include media(690px) {
+    margin-top: 0vh;
+   }
+&.aos-animate {
+      transition: 0s all;
+      opacity: 1;
+      margin-top: 0px;
+}
+}
+[data-aos="phone__content__04"] {
+  transition: 0.6s all;
+  opacity: 0;
+  transition-property: transform, transition,opacity;
+  margin-top: 20vh;
+  @include media(690px) {
+   margin-top: 0vh;
+  }
+&.aos-animate {
+      transition: 0s all;
+      opacity: 1;
+      margin-top: 0px;
+}
+}
+
+.phone__card__01,
+.phone__card__02,
+.phone__card__03 {
+  img {
+      transition: 0.2s all
+  }
+}
+
+.phone__content__02,
+.phone__content__03,
+.phone__content__04 {
+  transition: 0.2s all
+}
+@include media(690px){
+  .phone__ {
+      flex-direction: column-reverse ;
+  }
+  .phone__layout {
+    margin-top: 10vh !important;
+  }
+  .phone__layout,
+  .phone__content {
+      width: 100%;
+      margin: auto;
+  }
+  .phone__content {
+      text-align: center;
+  }
+  .phone__img {
+      margin: auto;
+  }
+}

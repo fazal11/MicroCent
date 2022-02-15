@@ -1,0 +1,28 @@
+// ================ HEADER ==============
+@import 'nav';
+
+header {
+    position: relative;
+    z-index: 999;
+    nav {
+        @include layout_mean();
+    }
+    &::after{
+        content: '';
+        height: .2vw;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        // background-color: #61a8e0;
+        // background-image: linear-gradient(90deg, #61a8e0 0%, #92b86b 47%, #599f86 99%);
+        background-color: #61a8e0;
+        background-image: linear-gradient(90deg, #61a8e0 0%, #8f84b7 31%, #92b86b 66%, #599f86 100%);
+    }
+}
+.navbar-brand {
+    >img {
+        width: 4.2vw;
+    }
+}
+// ================ HEADER END ==========

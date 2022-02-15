@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "BebasNeue";
+  src: url("../font_local/BebasNeueBold.otf"),
+       url("../font_local/BebasNeueBook.otf"),
+       url("../font_local/BebasNeueRegular.otf"),
+       url("../font_local/BebasNeueLight.otf"),
+       url("../font_local/BebasNeueThin.otf"),
+}
+
+
+
+@font-face {
+  font-family: "segoe_ui";
+  src: url("../font_local/SEGOEUI.TTF");
+}
+
+@font-face {
+  font-family: "CalibriLight";
+  src: url("../font_local/CalibriLight.ttf");
+}
+@font-face {
+  font-family: "CalibriLightItalic";
+  src: url("../font_local/CalibriLightItalic.ttf");
+}
+@font-face {
+  font-family: "CalibriBold";
+  src: url("../font_local/CalibriBold.TTF");
+}
+@font-face {
+  font-family: "CalibriRegular";
+  src: url("../font_local/CalibriRegular.ttf");
+}
+$Calibri__normal : "CalibriRegular";
+$Calibri__bold : "CalibriBold";
+$Calibri__light : "CalibriLight";

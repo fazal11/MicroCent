@@ -1,0 +1,293 @@
+// ================ BANNER ====================
+.banner{
+  background-image: url(../img/bg__Ban.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.mobo__phone {
+  // margin-top: -10vw;
+}
+.mc__phone_fix {
+  // width: 40vw !important;
+  width: 40vw !important;
+//   width: 750px !important;
+  margin-left: auto;
+}
+.banner__fix {
+  margin-top: 10% !important;
+
+}
+.banner__tittle {
+  margin-top: 0%;
+}
+
+.mc__phone {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  &_mean {
+      position: absolute;
+      top: 0;
+      z-index: 2;
+
+  }
+  &__01 {
+      position: absolute;
+    //   top: -5%;
+    //   width: 75%;
+    //   right: 15%;
+      // width: 30vw;
+      // top: -.9vw;
+      // right: 6.3vw;
+      // width: 30vw;
+      // top: 0vw;
+      right: 4.3vw;
+     z-index: 3;
+     width: 34vw;
+top: -11vw;
+
+  }
+  &__brand {
+      position: absolute;
+    //   width: 30%;
+    //   bottom: -80%;
+    // width: 12.5vw;
+    // left: 0vw;
+    // bottom: -12vw;
+    width: 10.5vw;
+    left: -0vw;
+    bottom: -17vw;
+    z-index: 1;
+  }
+  &__average {
+      position: absolute;
+    //   width: 50%;
+    //   right: -5%;
+    //   top: -78%;
+      // width: 20vw;
+      // right: -2vw;
+      // top: -10.8vw;
+      // right: -4.8vw;
+      // top: -12.8vw;
+      width: 20vw;
+      right: -3.8vw;
+      top: -9.8vw;
+      z-index: 4;
+
+  }
+}
+// @include media(1693px){
+//   .mc__phone{
+//       &__average{
+//           top: -60%;
+//       }
+//       &__brand {
+//           bottom: -35%;
+//       }
+//   }
+// }
+// @include media(1500px){
+//   .banner {
+//       h1 {
+//         font-size: 4.3vw;
+//         line-height: 1;
+//       }
+//   }
+//   .mc__phone{
+//       &__average{
+//           top: -84%;
+//       }
+//       &__brand {
+//           bottom: -90%;
+//       }
+//   }
+// }
+// @include media(1399px){
+//   .banner {
+//       h1 {
+//           font-size: 60px;
+//           line-height: 1;
+//       }
+//   }
+//   .mc__phone{
+//       &__average{
+//           top: -68%;
+//       }
+//       &__brand {
+//           bottom: -55%;
+//       }
+//   }
+// }
+// @include media(1356px){
+//   .mc__phone_fix {
+//       width: 600px !important;
+//   }
+// }
+// @include media(1249px){
+//   .banner {
+//       h1 {
+//           font-size: 50px;
+//       }
+//   }
+//   .mc__phone{
+//       &__average{
+//           top: -80%;
+//       }
+//       &__brand {
+//           bottom: -82%;
+//       }
+//   }
+// }
+// @include media(1166px){
+//   .banner {
+//       h1 {
+//           font-size: 42px;
+//       }
+//   }
+//   .mc__phone{
+//       &__average{
+//           top: -95%;
+//       }
+//       &__brand {
+//           bottom: -124%;
+//       }
+//   }
+// }
+// @include media(1099px){
+//   .banner {
+//       h1 {
+//           font-size: 38px;
+//       }
+//   }
+//   .banner__fix {
+//       margin-top: 12%;
+//   }
+//   .mc__phone{
+//       &__average{
+//           top: -106%;
+//       }
+//       &__brand {
+//           bottom: -140%;
+//       }
+//   }
+// }
+// @include media(1066px){
+//   .mc__phone_fix {
+//       width: 590px !important;
+//   }
+// }
+// @include media(1056px){
+//   .mc__phone_fix {
+//       width: 585px !important;
+//   }
+//   .mc__phone{
+//       &__average{
+//           top: -102%;
+//       }
+//       // &__brand {
+//       //     bottom: -140%;
+//       // }
+//   }
+// }
+// @include media(1051px){
+//   .banner {
+//       h1 {
+//           width: 317px;
+//       }
+//   }
+// }
+@include media(991px){
+  .mobo__phone {
+    margin-top: 0vw;
+  }
+}
+// @include media(940px){
+//   .banner {
+//       h1 {
+//           width: 315px;
+//           font-size: 35px;
+//       }
+//   }
+//   .mc__phone_fix {
+//       width: 500px !important;
+//   }
+//   .mc__phone{
+//       &__average{
+//           top: -95%;
+//       }
+//       &__brand {
+//           bottom: -120%;
+//       }
+//   }
+// }
+@include media(860px){
+  .banner {
+      h1 {
+          width: 100%;
+      }
+  }
+
+//   .mobo__phone {
+//       flex-direction: column;
+//   }
+//   .mc__phone_fix {
+//       margin-top: 20% !important;
+//       margin: auto;
+//       height: 400px;
+//   }
+//   .mc__phone{
+//       &__average{
+//           top: -37%;
+//       }
+//       &__brand {
+//           bottom: 22%;
+//       }
+//   }
+}
+// @include media(550px){
+//   .mc__phone_fix {
+//       margin-top: 30% !important;
+//       width: 430px !important;
+//   }
+//   .mc__phone{
+//       &__average{
+//           top: -32%;
+//       }
+//       &__brand {
+//           bottom: 33%;
+//       }
+//   }
+// }
+@include media(767px){
+      .mobo__phone {
+      flex-direction: column;
+      grid-gap: 10vw;
+  }
+  .mc__phone_fix {
+      width: 100% !important;
+  }
+  .mc__phone__01 {
+    width: 68vw;
+    top: -2vw;
+right: 8.3vw;
+  }
+  .mc__phone__average {
+    width: 38vw;
+    right: -6vw;
+    top: -19.8vw;
+  }
+  .mc__phone__brand {
+    width: 20.5vw;
+  left: 0vw;
+  bottom: -55vw;
+}
+  .banner {
+      h1 {
+          text-align: center;
+      }
+    }
+}
+
+
+// ================ BANNER END ================
